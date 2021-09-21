@@ -3,6 +3,12 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "bmgmoney-tracking": [
+        "dist/bmgmoney-tracking/bmgmoney-tracking",
+        "dist/bmgmoney-tracking"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
