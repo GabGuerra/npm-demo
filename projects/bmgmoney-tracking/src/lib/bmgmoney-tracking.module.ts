@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { HttpService } from '../utils/http-service';
 import { PubsubHelper } from '../utils/pubsub-helper';
+import { BmgmoneyTrackingService } from './bmgmoney-tracking.service';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { PubsubHelper } from '../utils/pubsub-helper';
   ],
   providers: [
     HttpService,
-    PubsubHelper
+    PubsubHelper,
+    BmgmoneyTrackingService
   ]
 })
 export class BmgmoneyTrackingModule { }

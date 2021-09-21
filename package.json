@@ -8,6 +8,10 @@
     "test": "ng test",
     "lint": "ng lint"
   },
+  "repository": {
+    "type": "git",
+    "url":"git+https://github.com/GabGuerra/npm-demo.git"
+  },
   "private": false,
   "dependencies": {
     "@angular/animations": "~11.2.13",
