@@ -2,9 +2,7 @@ import { Injectable } from '@angular/core';
 import { PubsubMessage } from '../models/pubsub-message';
 import { PubsubHelper } from '../utils/pubsub-helper';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class BmgmoneyTrackingService {
 
   constructor(private pubsubHelper: PubsubHelper) {
