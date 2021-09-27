@@ -2,5 +2,10 @@
  * Public API Surface of bmgmoney-tracking
  */
 
-export * from './lib/bmgmoney-tracking.service';
-export * from './lib/bmgmoney-tracking.module';
+import { BmgmoneyTrackingModule } from './lib/bmgmoney-tracking.module';
+import { BmgmoneyTrackingService } from './lib/bmgmoney-tracking.service';
+
+export {
+    BmgmoneyTrackingModule,
+    BmgmoneyTrackingService
+}
