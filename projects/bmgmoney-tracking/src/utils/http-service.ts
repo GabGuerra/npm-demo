@@ -8,6 +8,6 @@ export class HttpService {
 
     }
   public post(url: string, endpoint: string, data: any = null) {
-    return this.httpClient.post<any>(url + endpoint, data);
+    return this.httpClient.post(url + endpoint, data, {  responseType:'text' as 'text' });
   }
 }

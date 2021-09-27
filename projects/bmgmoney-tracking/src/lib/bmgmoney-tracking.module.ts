@@ -3,11 +3,11 @@ import { BmgMoneyTrackingConfig } from './bmgmoney-tracking.config';
 import { BmgmoneyTrackingService } from './bmgmoney-tracking.service';
 import { HttpService } from '../utils/http-service';
 import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [CommonModule, HttpClient ],
-  imports: [],
+  declarations: [],
+  imports: [CommonModule, HttpClientModule],
   exports: []
 })
 export class BmgmoneyTrackingModule {
