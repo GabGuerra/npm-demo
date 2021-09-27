@@ -1,5 +1,5 @@
 export interface BmgMoneyTrackingConfig{
-    pubsubUrl: string,
-    pubsubEndpoint: string,
+    cloudFunctionUrl: string,
+    cloudFunctionName: string,
     environment: string
 }
